@@ -1,0 +1,22 @@
+body{
+  
+    background-color: #e0e0e0;   
+} 
+
+.cardImg{
+    width: 5rem;
+    height: 8rem;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width : 786px){
+    .cardImg{
+        width: 10rem;
+        height: 14rem;
+    }
+}	
